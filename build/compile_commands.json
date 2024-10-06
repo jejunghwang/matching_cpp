@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/jejung/block_matching/build",
+  "command": "/usr/bin/c++  -isystem /home/jejung/anaconda3/envs/pytorch_cpp/include/opencv4 -std=gnu++17 -o CMakeFiles/block_matching.dir/src/matching.cpp.o -c /home/jejung/block_matching/src/matching.cpp",
+  "file": "/home/jejung/block_matching/src/matching.cpp",
+  "output": "CMakeFiles/block_matching.dir/src/matching.cpp.o"
+}
+]

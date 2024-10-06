@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Configure",
+            "type": "shell",
+            "command": "cmake ..",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "options": {
+                "env": {
+                    "CONDA_DEFUALT_ENV": "pytorch_cpp",
+                    "PATH": "/home/jejung/anaconda3/envs/pytorch_cpp/bin:${env:PATH}"
+                }
+            }
+        },
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "dependsOn": "CMake: Configure"
+        }
+    ]
+}

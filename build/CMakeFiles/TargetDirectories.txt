@@ -1,0 +1,3 @@
+/home/jejung/block_matching/build/CMakeFiles/block_matching.dir
+/home/jejung/block_matching/build/CMakeFiles/edit_cache.dir
+/home/jejung/block_matching/build/CMakeFiles/rebuild_cache.dir

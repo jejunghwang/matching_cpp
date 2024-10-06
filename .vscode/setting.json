@@ -1,0 +1,5 @@
+{
+    "python.condaPath": "/home/jejung/anaconda3/bin/conda",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.shellArgs.linux": ["-l"]
+}
